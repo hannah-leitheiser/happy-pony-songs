@@ -42,4 +42,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: LilyPond Files
-          path: ${{ github.workspace }}/generated_files
+          path: ${{ github.workspace }}/generated_files/*
