@@ -35,10 +35,11 @@ jobs:
           mkdir generated_files
           find . -type f -name "*.ly" -print0 | while IFS= read -r -d '' file; do 
             lilypond -o generated_files "$file"
+            ls generated_files
           done
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: LilyPond Files
-          path: $GITHUB_WORKSPACE/generated_files
+          path: ${{ github.workspace }}/generated_files
