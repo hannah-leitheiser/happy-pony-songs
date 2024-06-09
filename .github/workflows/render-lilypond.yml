@@ -28,14 +28,12 @@ jobs:
       - name: Install LilyPond
         run: sudo apt-get install lilypond
 
-      # Runs a set of commands using the runners shell
       - name: Compile LilyPond
         working-directory: $GITHUB_WORKSPACE
         run: |
-          mkdir $GITHUB_WORKSPACE/generated_files
+          mkdir generated_files
           find . -type f -name "*.ly" -print0 | while IFS= read -r -d '' file; do 
-            lilypond -o "$GITHUB_WORKSPACE/generated_files" "$file"
-            ls "$GITHUB_WORKSPACE/generated_files"
+            lilypond -o generated_files "$file"
           done
 
       - name: Upload artifacts
