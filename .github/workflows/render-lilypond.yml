@@ -33,8 +33,7 @@ jobs:
         run: |
           mkdir $GITHUB_WORKSPACE/generated_files
           find . -type f -name "*.ly" -print0 | while IFS= read -r -d '' file; do 
-            lilypond "$file"
-            mv "${file%.ly}.pdf" "${file%.ly}.mid" $GITHUB_WORKSPACE/generated_files
+            lilypond -o $GITHUB_WORKSPACE/generated_files "$file"
           done
 
       - name: Upload artifacts
