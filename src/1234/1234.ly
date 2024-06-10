@@ -7,12 +7,16 @@
  composer = "Flower Pony"
 }
 
+lyricsPattern = \lyricmode {
+  "1"4 "2"4 "3"4 "4"4
+}
+
 \book {
   \score {
   <<
     \new Staff = "singer" <<
       \new Voice = "vocal" { \time 4/4  { c'4 c'4 e'4 e'4 d'4 d'4 d'4 c'4 b4 b4 d'4 d'4 c'4 c'4 c'4 b4} }
-      \addlyrics { \time 4/4 { \repeat volta 4 { "1"4 "2"4 "3"4 "4"4  }}}
+      \addlyrics { \time 4/4 {  \lyricsPattern  \lyricsPattern \lyricsPattern \lyricsPattern }}
                             
     >>
      \new PianoStaff = "piano" <<
