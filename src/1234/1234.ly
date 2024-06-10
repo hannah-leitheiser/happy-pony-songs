@@ -12,9 +12,8 @@
   <<
     \new Staff = "singer" <<
       \new Voice = "vocal" { \time 4/4  { c'4 c'4 e'4 e'4 d'4 d'4 d'4 c'4 b4 b4 d'4 d'4 c'4 c'4 c'4 b4} }
-      \addlyrics { \time 4/4 { "1"4 "2"4 "3"4 "4"2 
-                               "1"4 "2"4 "4"4 "4"4 
-                               "1"4 "2"4 "3"4 "4"4 } }
+      \addlyrics { \time 4/4 { \repeat 4 { "1"4 "2"4 "3"4 "4"4  }}}
+                            
     >>
      \new PianoStaff = "piano" <<
       \new Staff = "upper" { \time 4/4 {  } }
