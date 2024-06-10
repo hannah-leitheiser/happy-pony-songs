@@ -25,6 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+
 
       - name: Run Super-Linter
         uses: github/super-linter@v4
@@ -33,21 +39,35 @@ jobs:
           DEFAULT_BRANCH: main
 
 
+      - name: Check for changes in .ly files
+        id: check_changes
+        run: |
+          git fetch origin main
+          if git diff --name-only HEAD^1 HEAD | grep '\.ly'; then
+            echo "::set-output name=has_changes::true"
+          else
+            echo "::set-output name=has_changes::false"
+          fi
+
+
       - name: Install LilyPond
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: sudo apt-get install lilypond
 
       - name: Compile LilyPond
+        if: steps.check_changes.outputs.has_changes == 'true'
         working-directory: ${{ github.workspace }}
         run: |
           pwd
           mkdir generated_files
           find . -type f -name "*.ly" -print0 | while IFS= read -r -d '' file; do 
-            lilypond -o generated_files "$file"
-            ls generated_files
+            lilypond -o songs_generated "$file"
+            ls songs_generated
           done
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: LilyPond Files
-          path: ${{ github.workspace }}/generated_files/*
+          
+      - name: Commit and push changes
+        if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
+        run: |
+          git add songs_generated
+          git commit -m "Automated commit from GitHub Actions"
+          git push
