@@ -18,7 +18,8 @@ lyricsPattern = \lyricmode {
       \new Voice = "vocal" { \time 4/4  { c'4 c'4 e'4 e'4 
                                           d'4 d'4 d'4 c'4 
                                           b4  b4  d'4 d'4 
-                                          c'4 c'4 c'4 b4 } }
+                                          c'4 c'4 c'4 b4 
+                                          a4  a4  a4  a4 } }
       \addlyrics { \time 4/4 {  \lyricsPattern  \lyricsPattern \lyricsPattern \lyricsPattern }}
                             
     >>
