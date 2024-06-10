@@ -19,13 +19,21 @@ lyricsPattern = \lyricmode {
                                           d'4 d'4 d'4 c'4 
                                           b4  b4  d'4 d'4 
                                           c'4 c'4 c'4 b4 
-                                          a4  a4  a4  a4 } }
+                                          a4  a4  c'4 c'4 } }
       \addlyrics { \time 4/4 {  \lyricsPattern  \lyricsPattern \lyricsPattern \lyricsPattern }}
                             
     >>
-     \new PianoStaff = "piano" <<
-      \new Staff = "upper" { \time 4/4 {  } }
-      \new Staff = "lower" { \time 4/4 \clef bass { } }
+      \new PianoStaff = "piano" <<
+      \new Staff = "upper" { \time 4/4 { c''4 e''4 g''4 c''4
+                                         b'4 d''4 f''4 b'4
+                                         a'4 c''4 e''4 a'4
+                                         g'4 b'4 d''4 g'4
+                                         f'4 a'4 c''4 f'4 } }
+      \new Staff = "lower" { \time 4/4 \clef bass { c4 g4 c4 g4
+                                                    b4 f4 b4 f4
+                                                    a4 e4 a4 e4
+                                                    g4 d4 g4 d4
+                                                    f4 c4 f4 c4 } }
     >>
   >>
   \layout { }
