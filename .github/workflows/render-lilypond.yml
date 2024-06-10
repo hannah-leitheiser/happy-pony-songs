@@ -66,7 +66,7 @@ jobs:
           done
           
       - name: Commit and push changes
-        if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
+        if: steps.check_changes.outputs.has_changes == 'true' && github.event.head_commit.message != 'Automated commit from GitHub Actions'
         run: |
           git add songs_generated
           git commit -m "Automated commit from GitHub Actions"
