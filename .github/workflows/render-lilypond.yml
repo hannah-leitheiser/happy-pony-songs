@@ -50,10 +50,10 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
           pwd
-          mkdir generated_files
-          find . -type f -name "*.ly" -print0 | while IFS= read -r -d '' file; do 
+          mkdir songs_generated
+          find . -type f -name "*.ly" -print0 | while IFS= read -r -d '' file; do
+            echo "$file"
             lilypond -o songs_generated "$file"
-            ls songs_generated
           done
           
       - name: Commit and push changes
