@@ -49,7 +49,7 @@ lyricsPattern = \lyricmode {
       \new Staff = "lower" { 
         \clef bass 
         \time 4/4 { 
-          <c' e' g'>4 <c' e' g'>4 <e' gis' b' d>4 <e' gis' b' d>4
+          <c' e' g'>4 <c' e' g'>4 <e' gis' b' d'>4 <e' gis' b' d'>4
           <f' a' d>4 <f' a' d>4 <f' a' d>4 <fis' a' d>4 
           <b d' g'>4 <b d' g'>4 <d' g' b'>4 <d' g' b'>4 
           <c' e' g'>4 <c' e' g'>4 <c' e' g'>4 <b d' g'>4 
