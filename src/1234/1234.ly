@@ -19,8 +19,18 @@ lyricsPattern = \lyricmode {
                                           d'4 d'4 d'4 c'4 
                                           b4  b4  d'4 d'4 
                                           c'4 c'4 c'4 b4 
-                                          a4  a4  c'4 c'4 } }
-      \addlyrics { \time 4/4 {  \lyricsPattern  \lyricsPattern \lyricsPattern \lyricsPattern \lyricsPattern }}
+                                          a4  a4  c'4 c'4 
+                                          b4  b4  b4  b4
+                                          c4  c4  c4  c4
+                                          c1} }
+      \addlyrics { \time 4/4 {  \lyricsPattern  
+                                \lyricsPattern 
+                                \lyricsPattern 
+                                \lyricsPattern 
+                                \lyricsPattern
+                                \lyricsPattern
+                                "5"4 "4"4 "3"4 "2"4
+                                "1"1}}
                             
     >>
 \new PianoStaff = "piano" <<
