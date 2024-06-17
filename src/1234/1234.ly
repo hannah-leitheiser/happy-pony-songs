@@ -36,15 +36,15 @@ lyricsPattern = \lyricmode {
 \new PianoStaff = "piano" <<
       \new Staff = "upper" { 
         \clef treble 
-        \time 4/4 { {
-{ c'4 c'4 e'4 e'4 
+        \time 4/4 
+                                        { c'4 c'4 e'4 e'4 
                                           d'4 d'4 d'4 c'4 
                                           b4  b4  d'4 d'4 
                                           c'4 c'4 c'4 b4 
                                           a4  a4  c'4 c'4 
                                           b4  b4  b4  b4
                                           c'4  c'4  c'4  c'4
-                                          c'1}         } 
+                                          c'1}
       }
       \new Staff = "lower" { 
         \clef bass 
