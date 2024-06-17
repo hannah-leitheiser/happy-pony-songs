@@ -37,8 +37,8 @@ lyricsPattern = \lyricmode {
       \new Staff = "upper" { 
         \clef treble 
         \time 4/4 { 
-          <c' e' g'>4 <c' e' g'>4 <e' g' b'>4 <e' g' b'>4
-          <d' f' a'>4 <d' f' a'>4 <d' f' a'>4 <c' e' g'>4 
+          <c' e' g'>4 <c' e' g'>4 <e' g#' b' d>4 <e' g#' b' d>4
+          <f' a' d>4 <f' a' d>4 <f' a' d>4 <f#' a' d>4 
           <b d' g'>4 <b d' g'>4 <d' g' b'>4 <d' g' b'>4 
           <c' e' g'>4 <c' e' g'>4 <c' e' g'>4 <b d' g'>4 
           <a c' f'>4 <a c' f'>4 <a c' f'>4 <a c' f'>4
