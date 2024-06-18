@@ -20,7 +20,7 @@ lyricsPattern = \lyricmode {
                                           b4  b4  d'4 d'4 
                                           c'4 c'4 c'4 b4 
                                           a4  a4  c'4 c'4 
-                                          b4  b4  b4  b4
+                                          b4  b4  b4  a4
                                           c'4  c'4  c'4  c'4
                                           c'1} }
       \addlyrics { \time 4/4 {  \lyricsPattern  
@@ -42,7 +42,7 @@ lyricsPattern = \lyricmode {
                                           b4  b4  d'4 d'4 
                                           c'4 c'4 c'4 b4 
                                           a4  a4  c'4 c'4 
-                                          b4  b4  b4  b4
+                                          b4  b4  b4  a4
                                           c'4  c'4  c'4  c'4
                                           c'1}
       }
@@ -53,7 +53,10 @@ lyricsPattern = \lyricmode {
           <d f a>2 <des a>2
           <b, dis fis a>2 <e g a>2
           <c g>2 <cis a>2 
-          <a c' f'>4 <a c' f'>4 <a c' f'>4 <a c' f'>4        } 
+          <a des>2 <a d>2 
+          <b, d f>2 <b, d f>2
+          <c e g>2 <c eis g>2
+          <c e g>1} 
       }
     >>
 
