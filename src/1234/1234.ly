@@ -3,7 +3,7 @@
 \header {
  date = "2024"
  copyright = ""
- title = "{x∈ N∣1≤x≤4 && 5}"
+ title = "{x∈ N∣1≤x≤4} ∪ {5}"
  composer = "Flower Pony"
 }
 
@@ -50,9 +50,9 @@ lyricsPattern = \lyricmode {
         \clef bass 
         \time 4/4 { 
           <e g c'>4 <e g c'>4 <e gis c'>4 <e gis b d'>4
-          <f' a' d>4 <f' a' d>4 <f' a' d>4 <fis' a' d>4 
-          <b d' g'>4 <b d' g'>4 <d' g' b'>4 <d' g' b'>4 
-          <c' e' g'>4 <c' e' g'>4 <c' e' g'>4 <b d' g'>4 
+          <d f a>2 <des a>2
+          <b, des fes a>2 <b, des fes a>2
+          <c g>2 <ces a>2 
           <a c' f'>4 <a c' f'>4 <a c' f'>4 <a c' f'>4        } 
       }
     >>
