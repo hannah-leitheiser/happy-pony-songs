@@ -52,10 +52,10 @@ lyricsPattern = \lyricmode {
           <e g c'>4 <e g c'>4 <e gis c'>4 <e gis b d'>4
           <d f a>2 <des a>2
           <b, dis fis a>2 <e g a>2
-          <c g>2 <cis a>2 
+          <c g>2 <b, a>2 
           <a des>2 <a d>2 
           <b, d f>2 <b, d f>2
-          <c e g>2 <c eis g>2
+          <c e fis a>2 <c f aes>2
           <c e g>1} 
       }
     >>
