@@ -72,7 +72,7 @@ lyricsPattern = \lyricmode {
         }
         \markup {
           \column {
-            \line { \bold "Modulation Matrix:" }
+            \line { "Modulation Matrix:" }
             \override #'(column-lines . ((1 . 0) (2 . 0)))  % Remove lines between columns
             \table {
               \bold \line { "Overtone" "Index 1" "Index 2" }
@@ -80,7 +80,7 @@ lyricsPattern = \lyricmode {
               \line { "2" "0.7" "0.2" }
               \line { "3" "0.6" "0.4" }
             }
-            \line { \bold "ADSR Envelope:" }
+            \line { "ADSR Envelope:" }
             \column {
               "Attack: 0.01"
               "Decay: 0.1"
