@@ -34,7 +34,27 @@ lyricsPattern = \lyricmode {
                             
     >>
 \new PianoStaff = "piano" <<
-      \new Staff = "upper" { 
+      \new Staff = "upper" {
+
+ \markup {
+    \column {
+      \line { \bold "Modulation Matrix:" }
+      \table {
+        \line { \bold "Overtone" \bold "Index 1" \bold "Index 2" }
+        \line { "1" "0.5" "0.3" }
+        \line { "2" "0.7" "0.2" }
+        \line { "3" "0.6" "0.4" }
+      }
+      \line { \bold "ADSR Envelope:" }
+      \column {
+        \line { \bold "Attack: " "0.01" }
+        \line { \bold "Decay: " "0.1" }
+        \line { \bold "Sustain: " "0.7" }
+        \line { \bold "Release: " "0.1" }
+      }
+    }
+  }
+
         \clef treble 
         \time 4/4 
                                         { c'4 c'4 e'4 e'4 
