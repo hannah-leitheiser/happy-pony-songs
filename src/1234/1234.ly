@@ -37,6 +37,10 @@ lyricsPattern = \lyricmode {
       \new Staff = "upper" { 
         \clef treble 
         \time 4/4 
+  \markup {
+    "This is a simple text in the piano section."
+  }
+
                                         { c'4 c'4 e'4 e'4 
                                           d'4 d'4 d'4 c'4 
                                           b4  b4  d'4 d'4 
