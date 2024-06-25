@@ -80,9 +80,7 @@ jobs:
              # Get the relative path of the file from src/
              relative_path=$(dirname "$file")
              echo "${relative_path}"
-             docker run --rm \
-              \ #-v "$(pwd)/${relative_path}:/data" \  # Mount current directory as in the container
-               "leitheiserhannah/python3-hello-world-template:latest"   # Replace with your Docker Hub image name and tag
+             docker run "leitheiserhannah/python3-hello-world-template:latest"
            done
           
       - name: Commit and push changes
