@@ -77,7 +77,7 @@ jobs:
             echo "$file"
             docker run --rm \
               -v $(pwd) \  # Mount current directory as in the container
-                python3-hello-world-template \  # Replace with your Docker Hub image name and tag
+                python3-hello-world-template   # Replace with your Docker Hub image name and tag
         done
           
       - name: Commit and push changes
