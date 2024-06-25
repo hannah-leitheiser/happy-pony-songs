@@ -77,8 +77,8 @@ jobs:
            find . -type f -name "*.mid" -print0 | while IFS= read -r -d '' file; do
              echo "$file"
              docker run --rm \
-              -v $(pwd) \  # Mount current directory as in the container
-               python3-hello-world-template   # Replace with your Docker Hub image name and tag
+              -v "$(pwd)" \  # Mount current directory as in the container
+               "python3-hello-world-template"   # Replace with your Docker Hub image name and tag
            done
           
       - name: Commit and push changes
