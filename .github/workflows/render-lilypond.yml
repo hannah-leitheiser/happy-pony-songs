@@ -74,7 +74,7 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
            cd songs_generated
-           find . -type f -name "*.mid" -print0 | while IFS= read -r -d '' file; do
+           find . -type f -name "*.midi" -print0 | while IFS= read -r -d '' file; do
              echo "$file"
              docker run --rm \
               -v "$(pwd)" \  # Mount current directory as in the container
