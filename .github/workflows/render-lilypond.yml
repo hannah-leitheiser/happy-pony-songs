@@ -80,7 +80,7 @@ jobs:
              relative_path=$(dirname "$file")
              echo "${relative_path}"
              docker run --rm \
-              -v "$(pwd)/${relative_path}:/data" \  # Mount current directory as in the container
+              #-v "$(pwd)/${relative_path}:/data" \  # Mount current directory as in the container
                "leitheiserhannah/python3-hello-world-template:latest"   # Replace with your Docker Hub image name and tag
            done
           
