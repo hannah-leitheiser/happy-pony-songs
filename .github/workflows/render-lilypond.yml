@@ -76,9 +76,12 @@ jobs:
            cd songs_generated
            find . -type f -name "*.midi" -print0 | while IFS= read -r -d '' file; do
              echo "$file"
+             # Get the relative path of the file from src/
+             relative_path=$(dirname "$file")
+             echo "${relative_path}"
              docker run --rm \
-              -v "$(pwd)" \  # Mount current directory as in the container
-               "python3-hello-world-template"   # Replace with your Docker Hub image name and tag
+              -v "${relative_path}" \  # Mount current directory as in the container
+               "leitheiserhannah/python3-hello-world-template:latest"   # Replace with your Docker Hub image name and tag
            done
           
       - name: Commit and push changes
