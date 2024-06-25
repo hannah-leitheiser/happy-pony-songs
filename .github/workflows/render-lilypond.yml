@@ -71,14 +71,15 @@ jobs:
 
       - name: Run Docker container
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
+        working-directory: ${{ github.workspace }}
         run: |
-          cd songs_generated
-          find . -type f -name "*.mid" -print0 | while IFS= read -r -d '' file; do
-            echo "$file"
-            docker run --rm \
+           cd songs_generated
+           find . -type f -name "*.mid" -print0 | while IFS= read -r -d '' file; do
+             echo "$file"
+             docker run --rm \
               -v $(pwd) \  # Mount current directory as in the container
-                python3-hello-world-template   # Replace with your Docker Hub image name and tag
-          done
+               python3-hello-world-template   # Replace with your Docker Hub image name and tag
+           done
           
       - name: Commit and push changes
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
