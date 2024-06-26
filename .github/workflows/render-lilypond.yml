@@ -79,7 +79,7 @@ jobs:
              echo "$file"
              # Get the relative path of the file from src/
              relative_path=$(dirname "$file")
-             echo "${relative_path}"
+             echo "${relative_path}" 
              docker run "leitheiserhannah/python3-hello-world-template:latest"
            done
           
