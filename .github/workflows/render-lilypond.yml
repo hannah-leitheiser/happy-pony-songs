@@ -67,7 +67,9 @@ jobs:
 
       - name: Pull Docker Image
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
-        run: docker pull leitheiserhannah/python3-hello-world-template:latest
+        run: | 
+           docker pull leitheiserhannah/python3-hello-world-template:latest
+           docker run --rm leitheiserhannah/python3-hello-world-template:latest ls -la
 
       - name: Run Docker container
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
