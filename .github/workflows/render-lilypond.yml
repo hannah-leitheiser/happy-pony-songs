@@ -68,8 +68,8 @@ jobs:
       - name: Pull Docker Image
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
         run: | 
-           docker pull leitheiserhannah/python3-hello-world-template:latest
-           docker run --rm leitheiserhannah/python3-hello-world-template:latest find /app -type f
+           docker pull leitheiserhannah/happy-pony-synth:latest
+           docker run --rm leitheiserhannah/happy-pony-synth:latest find /app -type f
 
       - name: Run Docker container
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
@@ -82,7 +82,7 @@ jobs:
              # Get the relative path of the file from src/
              relative_path=$(dirname "$file")
              echo "${relative_path}" 
-             docker run "leitheiserhannah/python3-hello-world-template:latest"
+             docker run --rm -e test_arg "leitheiserhannah/happy-pony-synth:latest"
            done
           
       - name: Commit and push changes
