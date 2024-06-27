@@ -76,13 +76,14 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: |
            cd songs_generated
-           docker images
            find . -type f -name "*.midi" -print0 | while IFS= read -r -d '' file; do
              echo "$file"
              # Get the relative path of the file from src/
              relative_path=$(dirname "$file")
              echo "${relative_path}" 
-             docker run --rm -e test_arg "leitheiserhannah/happy-pony-synth:latest"
+             file_shorter="${file#./}"
+             echo docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}"
+             docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}"
            done
           
       - name: Commit and push changes
