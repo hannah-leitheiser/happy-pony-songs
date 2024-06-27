@@ -84,7 +84,7 @@ jobs:
              file_shorter="${file#./}"
              echo docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}"
              #docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}"
-             docker run --rm "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}"
+             docker run --rm "leitheiserhannah/happy-pony-synth:latest" bash -c "/songs_generated/${file_shorter}"
            done
           
       - name: Commit and push changes
