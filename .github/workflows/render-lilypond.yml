@@ -69,7 +69,6 @@ jobs:
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
         run: | 
            docker pull leitheiserhannah/happy-pony-synth:latest
-           docker run --rm leitheiserhannah/happy-pony-synth:latest find /app -type f
 
       - name: Run Docker container
         if: github.event.head_commit.message != 'Automated commit from GitHub Actions'
