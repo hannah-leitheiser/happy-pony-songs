@@ -53,7 +53,7 @@ lyricsPattern = \lyricmode {
         \time 4/4 { 
           <e g c'>4 <e g c'>4 <e gis c'>4 <e gis b d'>4
           <d f a>4 <d f a>4  <des f a>4 <c f g>4
-          <b, dis fis a>4 <c dis fis a>4 <d g a>4 <c g a>4
+          <b, dis fis a>4 <b, dis fis a>4 <c g a>4 <c g a>4
           <c e g>4 <d e g>4 <b, f a>4 <b, f g>4 
           <a des>4 <a f des>4 <a d>4 <b, a d>4 
           <b, d f>4 <b, d g>4 <a, d f a>4 <a, d f g>4
