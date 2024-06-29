@@ -7,11 +7,11 @@
  composer = "Flower Pony"
 }
 
-lyricsPattern =  \lyricsmode {
+lyricsPattern =  \lyricmode {
   "1"4 "2"4 "3"4 "4"4
 }
 
-lyricsSection = \lyricsmode { \lyricsPattern  
+lyricsSection = \lyricmode { \lyricsPattern  
                                 \lyricsPattern 
                                 \lyricsPattern 
                                 \lyricsPattern 
