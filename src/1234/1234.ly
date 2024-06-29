@@ -11,6 +11,15 @@ lyricsPattern = \lyricmode {
   "1"4 "2"4 "3"4 "4"4
 }
 
+lyricsSection = {  \lyricsPattern  
+                                \lyricsPattern 
+                                \lyricsPattern 
+                                \lyricsPattern 
+                                \lyricsPattern
+                                \lyricsPattern
+                                \lyricsPattern
+                                "5"1 }
+
 melodyPattern = { c'4 c'4 e'4 e'4 
                                           d'4 d'4 d'4 c'4 
                                           b4  b4  d'4 d'4 
@@ -25,15 +34,12 @@ melodyPattern = { c'4 c'4 e'4 e'4
   \score {
   <<
     \new Staff = "singer" <<
-      \new Voice = "vocal" { \time 4/4  \melodyPattern }
-      \addlyrics { \time 4/4 {  \lyricsPattern  
-                                \lyricsPattern 
-                                \lyricsPattern 
-                                \lyricsPattern 
-                                \lyricsPattern
-                                \lyricsPattern
-                                \lyricsPattern
-                                "5"1}}
+      \new Voice = "vocal" { \time 4/4  \melodyPattern
+                                        \melodyPattern }
+      \addlyrics { \time 4/4 
+
+                    \lyricsSection
+                    \lyricsSection }
                             
     >>
 \new PianoStaff = "piano" <<
