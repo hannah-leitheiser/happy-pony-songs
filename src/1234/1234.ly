@@ -2,7 +2,7 @@
 
 \header {
  date = "2024"
- copyright = ""
+ copyright = "2024"
  title = "{x∈ N∣1≤x≤4} ∪ {5}"
  composer = "Flower Pony"
 }
