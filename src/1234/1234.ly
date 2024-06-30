@@ -66,7 +66,7 @@ melodyPattern = { c'4 c'4 e'4 e'4
           <c e g>4 <d e g>4 <b, f a>4 <b, f g>4 
           <a des>4 <a f des>4 <a d>4 <b, a d>4 
           <b, d f>4 <b, d g>4 <a, d f a>4 <a, d f g>4
-          <c e fis a>2 <c f aes>2
+          <c e fis a>4 <c e fis a>4 <c f aes>4 <c f aes>4
           <c e g>1} 
       }
     >>
