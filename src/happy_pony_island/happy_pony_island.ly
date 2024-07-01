@@ -30,9 +30,13 @@
   \score {
   <<
     \new Staff = "singer" <<
-      \new Voice = "vocal" { \time 4/4 
-                     a gis a a g a
-                     c e d f e c d}
+      \new Voice = "vocal" { \time 4/4
+
+ % Starting with rests to come in on the fourth count
+  r2 r4. 
+  \tuplet 3/2 { a'8 gis' a' } % Triplet starting on the fourth count
+  a'4 g' a'
+                     c' e' d' f' e' c' d'}
       \addlyrics { \time 4/4 
 
                     We can be ha- -a- -py.
