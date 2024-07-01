@@ -43,7 +43,7 @@ melodyPattern = { c'4 c'4 e'4 e'4
                             
     >>
 \new PianoStaff = "piano" <<
-      \new Staff = "upper" \with \with {
+      \new Staff = "upper" \with {
   instrumentName = "Violin "
   shortInstrumentName = "Vln. "
 }
