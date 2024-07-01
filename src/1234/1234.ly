@@ -21,7 +21,7 @@ lyricsSection = \lyricmode { \lyricsPattern
                                 "5"1  } 
 
 melodyPattern = { c'4 c'4 e'4 e'4 
-                                          d'4 d'4 d'4 c'4 
+                  d'4 d'4 d'4 c'4 
                                           b4  b4  d'4 d'4 
                                           c'4 c'4 c'4 b4 
                                           a4  a4  c'4 c'4 
