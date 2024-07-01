@@ -33,9 +33,9 @@
       \new Voice = "vocal" { \time 4/4
 
  % Starting with rests to come in on the fourth count
-  r2 r4. 
-  \tuplet 3/2 { a'8 gis' a' } % Triplet starting on the fourth count
-  a'4 g' a'
+  r2 r4 
+  \tuplet 3/4 { a'8 gis' a' } % Triplet starting on the fourth count
+  a'4 g' a'2
                      c' e' d' f' e' c' d'}
       \addlyrics { \time 4/4 
 
