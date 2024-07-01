@@ -37,7 +37,7 @@
   \tuplet 3/2 { a'8 gis'8 a'8 } % Triplet starting on the fourth count
   a'4 g' a'2
                      c'4 e' d' f' e' c' d'}
-      \addlyrics { \time 4/4 
+      \addlyrics { 
 
                     We can be ha -a py.
                     Hur ry up it's time to leave.
