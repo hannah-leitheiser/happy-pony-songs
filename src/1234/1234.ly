@@ -42,12 +42,12 @@ melodyPattern = { c'4 c'4 e'4 e'4
                     \lyricsSection }
                             
     >>
-\new PianoStaff = "piano" 
+\new PianoStaff = "piano" <<
+      \new Staff = "upper" {
         \set Staff.midiInstrument = "glockenspiel"
         \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
-     <<
-      \new Staff = "upper" {
-        \clef treble 
+
+       \clef treble 
         \time 4/4 
 
 
@@ -61,6 +61,9 @@ melodyPattern = { c'4 c'4 e'4 e'4
                                           c'1}
       }
       \new Staff = "lower" { 
+        \set Staff.midiInstrument = "glockenspiel"
+        \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
+
         \clef bass 
         \time 4/4 { 
           <e g c'>4 <e g c'>4 <e gis c'>4 <e gis b d'>4
