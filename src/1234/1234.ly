@@ -43,6 +43,7 @@ melodyPattern = { c'4 c'4 e'4 e'4
                             
     >>
 \new PianoStaff = "piano" <<
+      \set Staff.midiInstrument = "glockenspiel"
       \new Staff = "upper" {
         \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
         \clef treble 
