@@ -34,12 +34,12 @@
 
  % Starting with rests to come in on the fourth count
   r2 r4 
-  \tuplet 3/4 { a'8 gis'8 a'8 } % Triplet starting on the fourth count
+  \tuplet 3/2 { a'8 gis'8 a'8 } % Triplet starting on the fourth count
   a'4 g' a'2
-                     c' e' d' f' e' c' d'}
+                     c'4 e' d' f' e' c' d'}
       \addlyrics { \time 4/4 
 
-                    We can be ha- -a- -py.
+                    We can be ha -a py.
                     Hur ry up it's time to leave.
                     Few will un der stand and that's OK. }
                             
