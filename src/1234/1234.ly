@@ -31,16 +31,24 @@ melodyPattern = { c'4 c'4 e'4 e'4
 
 
 \book {
-  \label #'toc
-  \markup \column {
-    \large \fill-line { \null Table of contents \null }
-    \toc-line #'toc "Table of contents"
-    \toc-line #'firstScore "First Score"
-    \toc-line #'markA "Mark A"
-    \toc-line #'markB "Mark B"
-    \toc-line #'markC "Mark C"
-    \toc-line #'unknown "Unknown label"
+
+\markup {
+  \fill-line {
+    ""
+    {
+      \column {
+        \left-align {
+          "This is line one of the first verse"
+          "This is line two of the same"
+          "And here's line three of the first verse"
+          "And the last line of the same"
+        }
+      }
+    }
+    ""
   }
+}
+
   \score {
   <<
     \new Staff = "singer" <<
