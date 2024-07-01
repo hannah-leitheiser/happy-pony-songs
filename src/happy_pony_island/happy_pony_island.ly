@@ -34,9 +34,9 @@
 
  % Starting with rests to come in on the fourth count
   r2 r4 
-  \tuplet 3/2 { a'8 gis'8 a'8 } % Triplet starting on the fourth count
-  a'4 g' a'2
-                     c'4 e' d' f' e' c' d'}
+  \tuplet 3/2 { a8 gis8 a8 } % Triplet starting on the fourth count
+  c'4 b c'2.
+                     c'8 d'8 e'4. c'8 d'4. b8 c'4}
       \addlyrics { 
 
                     We can be ha -a py.
