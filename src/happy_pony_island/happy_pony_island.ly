@@ -35,11 +35,13 @@
  % Starting with rests to come in on the fourth count
   r2 r4 
   \tuplet 3/2 { a8 gis8 a8 } % Triplet starting on the fourth count
-  c'4 b c'2.
-                     c'8 d'8 e'4. c'8 d'4. b8 c'4}
+  c'2 b2 c'2.
+                     c'8 d'8 e'4. c'8 d'4. b8 c'2.
+
+                     a2. a8 a8 a4 b4 a4 a4 a4 e2}
       \addlyrics { 
 
-                    We can be ha -a py.
+                    We can be ha a py.
                     Hur ry up it's time to leave.
                     Few will un der stand and that's OK. }
                             
