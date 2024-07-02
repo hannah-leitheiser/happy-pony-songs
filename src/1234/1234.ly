@@ -38,7 +38,7 @@ melodyPattern = { c'4 c'4 e'4 e'4
     {
       \column {
         \left-align {
-          "This is line one of the first verse"
+          "Piano = [relative, 2, 0.2]"
           "This is line two of the same"
           "And here's line three of the first verse"
           "And the last line of the same"
