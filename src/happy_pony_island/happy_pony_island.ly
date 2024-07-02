@@ -35,8 +35,8 @@
  % Starting with rests to come in on the fourth count
   r2 r4 
   \tuplet 3/2 { f8 e8 f8 } % Triplet starting on the fourth count
-  a'2 gis2 a'2.
-                     a8 b8 c'4. a8 b4. g8 a2.
+  a'4 gis4 a'4.
+                     a16 b16 c'8 a16 b8 g16 a4.
 
                      a2. a8 a8 a4 b4 a4 a4 g4 e2}
       \addlyrics { 
