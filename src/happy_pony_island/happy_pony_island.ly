@@ -16,7 +16,7 @@
     {
       \column {
         \left-align {
-          "This is line one of the first verse"
+          "Program 0: [5Hz, 20%], [2x, 100%]"
           "This is line two of the same"
           "And here's line three of the first verse"
           "And the last line of the same"
@@ -36,9 +36,9 @@
   r2 r4 
   \tuplet 3/2 { f'8 e'8 f'8 } % Triplet starting on the fourth count
   a'4 gis'4 a'4.
-                     a'16 b'16 c''8 a'16 b'8 g'16 a'4.
+                     a'16 b'16 c''8 a'16 b'8 g'16 a'2
 
-                     a'4. a'16 a'16 a'8. b'8 a'16 a'16 g'16 e'4.}
+                     a'8. a'16 a'16 a'8 b'16 a'16 a'16 g'16 e'2}
       \addlyrics { 
 
                     We can be ha a py.
