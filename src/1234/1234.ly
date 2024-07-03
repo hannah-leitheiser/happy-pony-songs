@@ -38,7 +38,8 @@ melodyPattern = { c'4 c'4 e'4 e'4
     {
       \column {
         \left-align {
-          "Piano = [relative, 2, 0.2]"
+          "Program 1: [5Hz, 20%], [2x, 100%]"
+          "Program 2: [4x, 50%]"
           "This is line two of the same"
           "And here's line three of the first verse"
           "And the last line of the same"
@@ -66,7 +67,7 @@ melodyPattern = { c'4 c'4 e'4 e'4
   shortInstrumentName = ""
 }
 {
-        \set Staff.midiInstrument = "glockenspiel"
+        \set Staff.midiInstrument = "acoustic grand"
         \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
 
        \clef treble 
@@ -84,7 +85,7 @@ melodyPattern = { c'4 c'4 e'4 e'4
       }
       \new Staff = "lower" 
 \with {
-  instrumentName = "Flute "
+  instrumentName = "bright acoustic"
   shortInstrumentName = ""
 } { 
         \set Staff.midiInstrument = "flute"
