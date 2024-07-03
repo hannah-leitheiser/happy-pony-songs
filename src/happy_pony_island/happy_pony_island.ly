@@ -36,9 +36,9 @@
   r2 r4 
   \tuplet 3/2 { f'8 e'8 f'8 } % Triplet starting on the fourth count
   a'4 gis'4 a'4.
-                     a'16 b'16 c''8 a'16 b'8 g'16 a'2
+                     a'16 b'16 c''8 a'16 b'8. g'16 a16~ a'2
 
-                     a'8. a'16 a'16 a'8 b'16 a'16 a'16 g'16 e'2}
+                     a'8. a'16 a'16 a'8. b'8 a'16 a'16 g'16 e'2}
       \addlyrics { 
 
                     We can be ha a py.
