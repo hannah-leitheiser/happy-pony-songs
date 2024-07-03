@@ -59,11 +59,14 @@ jobs:
             echo "$file"
             # Get the relative path of the file from src/
             relative_path=$(dirname "$file")
+            file_shorter="${file#./}"
             # Create the corresponding directory structure in songs_generated/
             mkdir -p "../songs_generated/$relative_path"
             # Generate LilyPond files in the corresponding directory
             lilypond -o "../songs_generated/$relative_path" "$file"
-            cp "$file" "../songs_generated/$relative_path/$file"
+            
+            echo cp "$file" "../songs_generated/$file_shorter"
+            cp "$file" "../songs_generated/$file_shorter"
           done
 
       - name: Pull Docker Image
