@@ -48,8 +48,8 @@
     >>
 \new PianoStaff = "piano" <<
       \new Staff = "upper" \with {
-  instrumentName = "Violin "
-  shortInstrumentName = ""
+  instrumentName = "1"
+  shortInstrumentName = "1"
 }
 {
         \set Staff.midiInstrument = "glockenspiel"
