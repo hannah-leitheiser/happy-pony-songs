@@ -63,6 +63,7 @@ jobs:
             mkdir -p "../songs_generated/$relative_path"
             # Generate LilyPond files in the corresponding directory
             lilypond -o "../songs_generated/$relative_path" "$file"
+            cp "$file" "../songs_generated/$relative_path/$file"
           done
 
       - name: Pull Docker Image
@@ -81,8 +82,9 @@ jobs:
              relative_path=$(dirname "$file")
              echo "${relative_path}" 
              file_shorter="${file#./}"
-             echo docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}"
-             docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}"
+             lilypond=${file_shorter::-4}ly
+             echo docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}" "/songs_generated/${lilypond}"
+             docker run --rm -v "$(pwd)":/songs_generated "leitheiserhannah/happy-pony-synth:latest" "/songs_generated/${file_shorter}" "/songs_generated/${lilypond}"
            done
           
       - name: Commit and push changes
