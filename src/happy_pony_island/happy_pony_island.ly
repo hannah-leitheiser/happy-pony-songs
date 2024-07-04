@@ -17,6 +17,7 @@
       \column {
         \left-align {
           "Program 0: [5Hz, 20%], [2x, 100%]"
+          "Program 1: [2x,  20%], [3x, 20%]"
           "This is line two of the same"
           "And here's line three of the first verse"
           "And the last line of the same"
