@@ -36,7 +36,7 @@
   r2 r4 
   \tuplet 3/2 { f'8 e'8 f'8 } % Triplet starting on the fourth count
   g'4 ges'4 g'4.
-                     a'16 b'16 c''8 a'16 b'8. g'16 a'16~ a'2
+                     g'16 a'16 b'8 g'16 a'8. fis'16 g'16~ g'2
 
                      a'8. a'16 a'16 a'8. b'8 a'16 a'16 g'16 e'2}
       \addlyrics { 
@@ -71,7 +71,7 @@
 
         \clef bass 
         \time 4/4 
-       { r1 <c e g>4 <b, d fes> <e g b> <a ces' e'> <a c' e'> <a, ces e> <b, des fes>  } 
+       { r1 <c e g>4 <b, d fis> <e g b> <e g b> <a cis' e'> <a, c' e'> <b, des fes> <c e g> <d fis a> <b, e g> <b, e gis>  } 
       }
     >>
 
