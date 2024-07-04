@@ -71,7 +71,7 @@
 
         \clef bass 
         \time 4/4 
-       { r1 <c e g>4 <b, d fis> <e g b> <e g b> <a cis' e'> <a, c' e'> <b, dis fis> <b, dis fis a> <c e g> <d fis a> <b, e g> <b, e gis>  } 
+       { r1 <c e g>4 <b, d fis> <e g b> <e g b> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, e g> <b, e gis>  } 
       }
     >>
 
