@@ -35,7 +35,7 @@
  % Starting with rests to come in on the fourth count
   r2 r4 
   \tuplet 3/2 { f'8 e'8 f'8 } % Triplet starting on the fourth count
-  a'4 gis'4 a'4.
+  g'4 ges'4 g'4.
                      a'16 b'16 c''8 a'16 b'8. g'16 a'16~ a'2
 
                      a'8. a'16 a'16 a'8. b'8 a'16 a'16 g'16 e'2}
@@ -59,7 +59,7 @@
         \time 4/4 
 
 
-                                        { a }
+                                        { r }
       }
       \new Staff = "lower" 
 \with {
@@ -70,8 +70,8 @@
         \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
 
         \clef bass 
-        \time 4/4 { 
-          a } 
+        \time 4/4 
+       { r1 <c e g>4 <b, d fes> <e g b> <a ces' e'> <a c' e'> <a, ces e> <b, des fes>  } 
       }
     >>
 
