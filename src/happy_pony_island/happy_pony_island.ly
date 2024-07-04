@@ -38,7 +38,7 @@
   g'4 ges'4 g'4.
                      g'16 a'16 b'8 g'16 a'8. fis'16 g'16~ g'2
 
-                     a'8. a'16 a'16 a'8. b'8. a'16 a'8 g'8 e'2}
+                     g'8. g'16 g'16 fis'8. fis'8. fis'16 g'8 d'8 e'2}
       \addlyrics { 
 
                     We can be ha a py.
@@ -53,7 +53,7 @@
 }
 {
         \set Staff.midiInstrument = "glockenspiel"
-        \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
+        \tempo 4 = 90 % This sets the quarter note (crotchet) to 120 BPM
 
        \clef treble 
         \time 4/4 
@@ -63,11 +63,11 @@
       }
       \new Staff = "lower" 
 \with {
-  instrumentName = "Flute "
+  instrumentName = "2 "
   shortInstrumentName = ""
 } { 
-        \set Staff.midiInstrument = "flute"
-        \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
+        \set Staff.midiInstrument = "grand piano"
+        \tempo 4 = 90 % This sets the quarter note (crotchet) to 120 BPM
 
         \clef bass 
         \time 4/4 
