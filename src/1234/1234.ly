@@ -38,8 +38,8 @@ melodyPattern = { c'4 c'4 e'4 e'4
     {
       \column {
         \left-align {
-          "Program 1: 0.1s, 80%, 0.1s : [5Hz, 20%], [2x, 100%]"
-          "Program 2: 0.1s, 80%, 0.1s : [4x, 50%]"
+          "Program 1: 0.1s, 0.1s, 80%, 0.1s : [5Hz, 20%], [2x, 100%]"
+          "Program 2: 0.1s, 0.1s, 80%, 0.1s : [4x, 50%]"
           "This is line two of the same"
           "And here's line three of the first verse"
           "And the last line of the same"
