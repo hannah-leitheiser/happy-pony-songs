@@ -16,8 +16,8 @@
     {
       \column {
         \left-align {
-          "Program 0: [5Hz, 20%], [2x, 100%]"
-          "Program 1: [2x,  20%], [3x, 20%]"
+          "Program 0: 0.1s, 60%, 0.05s : [5Hz, 20%], [2x, 100%]"
+          "Program 1: 0.1s, 80%, 0.1s : [2x,  20%], [3x, 20%]"
           "This is line two of the same"
           "And here's line three of the first verse"
           "And the last line of the same"
@@ -72,7 +72,7 @@
 
         \clef bass 
         \time 4/4 
-       { r1 <c e g>4 <b, d fis> <e g b> <e g b> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, e g> <b, e gis>  } 
+       { r1 <c e g>4 <b, d fis> <e g b> <e g b> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, e g> <b, e g> <b, e gis> <b, e gis>  } 
       }
     >>
 
