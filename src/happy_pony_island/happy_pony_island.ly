@@ -36,15 +36,17 @@
  % Starting with rests to come in on the fourth count
   r2 r4 
   \tuplet 3/2 { f'8 e'8 f'8 } % Triplet starting on the fourth count
-  g'4 ges'4 g'4.
-                     g'16 a'16 b'8 g'16 a'8. fis'16 g'16~ g'2
+  a'4 aes'4 a'4.
+                     g'16 a'16 b'8 g'16 a'8. g'16 fis'16~ fis'2
 
-                     g'8. g'16 g'16 fis'8. fis'8. fis'16 g'8 d'8 e'2}
+                     e'8. e'16 e'16 e'8. fis'8. e'16 d'8 e'8 b2 r2
+
+                    f'8 g' aes' g' f' g' f' e' }
       \addlyrics { 
 
                     We can be ha a py.
                     Hur ry up it's time to leave.
-                    Few will un der stand and that's OK. }
+                    Few will un der stand and that's O K. }
                             
     >>
 \new PianoStaff = "piano" <<
@@ -72,7 +74,8 @@
 
         \clef bass 
         \time 4/4 
-       { r1 <c e g>4 <b, d fis> <e g b> <e g b> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, e g> <b, e g> <b, e gis> <b, e gis>  } 
+       { r1 <c e a>4 <b, dis gis> <e g a> <e g a> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, d g> <b, d g> <b, d e gis> <b, d e gis> 
+         <f aes c'> <f aes c'>} 
       }
     >>
 
