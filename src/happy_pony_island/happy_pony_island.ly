@@ -41,12 +41,13 @@
 
                      e'8. e'16 e'16 e'8. fis'8. e'16 d'8 e'8 b2 r2
 
-                    f'8 g' aes' g' f' g' f' e' }
+                    f'8 g' aes' g' f' g' f' e' d' e' fis' f' g' f' d'2  c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 d'2 }
       \addlyrics { 
 
                     We can be ha a py.
                     Hur ry up it's time to leave.
-                    Few will un der stand and that's O K. }
+                    Few will un der stand and that's O K. 
+                    }
                             
     >>
 \new PianoStaff = "piano" <<
@@ -74,8 +75,8 @@
 
         \clef bass 
         \time 4/4 
-       { r1 <c e a>4 <b, dis gis> <e g a> <e g a> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, d g> <b, d g> <b, d e gis> <b, d e gis> 
-         <f aes c'> <f aes c'>} 
+       { r1 <c e a>4 <b, dis gis> <c e a> <c e a> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, d g> <b, d g> <b, d e gis> <b, d e gis> 
+         <f> <aes c'> <b,> <e g> <a,> <ees g> <b,> <d f> <aes,> <c ees> <g,> <c ees> <g,> <b, d> <b, d> } 
       }
     >>
 
