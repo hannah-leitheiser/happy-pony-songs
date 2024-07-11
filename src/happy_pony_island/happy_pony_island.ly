@@ -41,7 +41,10 @@
 
                      e'8. e'16 e'16 e'8. fis'8. e'16 d'8 e'8 b2 r2
 
-                    f'8 g' aes' g' f' e' d' e' ees' f' g' f' ees'2  c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 d'2 }
+                    f'8 g' aes' g' f' e' d' e' ees' f' g' f' ees'2  c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 d'2 
+                    r8 a16 e16 a8 b16 c'16 a16~ a8 r8 a16 f16 a8 b16 c,8. c,16 b16 a
+
+                       }
       \addlyrics { 
 
                     We can be ha a py.
@@ -76,7 +79,7 @@
         \clef bass 
         \time 4/4 
        { r1 <c e a>4 <b, dis gis> <c e a> <c e a> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, d g> <b, d g> <b, d e gis> <b, d e gis> 
-         <f> <aes c'> <b,> <e g> <a,> <ees g> <bes,> <ees g> <aes,> <c ees> <g,> <c ees> <g,> <b, d> <b, d> } 
+         <f> <aes c'> <b,> <e g> <a,> <e g> <bes,> <ees g> <aes,> <c ees> <g,> <c ees> <g,> <b, d> <b, d> } 
       }
     >>
 
