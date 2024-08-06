@@ -16,8 +16,8 @@
     {
       \column {
         \left-align {
-          "Program 0: 0.05s, 0.3s, 60%, 0.05s : [5Hz, 20%], [2x, 100%]"
-          "Program 1: 0.05s, 0.3s, 80%, 0.05s : [2x,  20%], [3x, 20%], [4x, 20%]"
+          "Program 1: 0.05s, 0.3s, 60%, 0.05s : [5Hz, 20%], [2x, 100%]"
+          "Program 2: 0.05s, 0.3s, 80%, 0.05s : [2x,  20%], [3x, 20%], [4x, 20%]"
         }
       }
     }
@@ -57,7 +57,7 @@
   shortInstrumentName = "1"
 }
 {
-        \set Staff.midiInstrument = "glockenspiel"
+        \set Staff.midiInstrument = "acoustic grand"
         \tempo 4 = 90 % This sets the quarter note (crotchet) to 120 BPM
 
        \clef treble 
@@ -68,10 +68,10 @@
       }
       \new Staff = "lower" 
 \with {
-  instrumentName = "2 "
-  shortInstrumentName = ""
+  instrumentName = "2"
+  shortInstrumentName = "2"
 } { 
-        \set Staff.midiInstrument = "grand piano"
+        \set Staff.midiInstrument = "bright acoustic"
         \tempo 4 = 90 % This sets the quarter note (crotchet) to 120 BPM
 
         \clef bass 
