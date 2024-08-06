@@ -64,7 +64,24 @@
         \time 4/4 
 
 
-                                        { r }
+                                        {
+ % Starting with rests to come in on the fourth count
+  r2 r4 
+  \tuplet 3/2 { f'8 e'8 f'8 } % Triplet starting on the fourth count
+  a'4 aes'4 a'4.
+                     g'16 a'16 b'8 g'16 a'8. g'16 fis'16~ fis'2
+
+                     e'8. e'16 e'16 e'8. fis'8. e'16 d'8 e'8 b2 r2
+
+                    f'8 g' aes' g' f' e' d' e' ees' f' g' f' ees'2  c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 d'2 
+                    r8 a16 e16 a8 b8 c'8 a8~ a8 r8 r8 a16 f16 a8 b16 c'8. c'16 b16 a r8.
+                    r8 b16 g16 b16 c'8 c'16 b16 a16 
+
+                       }
+
+
+
+}
       }
       \new Staff = "lower" 
 \with {
