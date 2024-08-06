@@ -82,7 +82,7 @@
 
 
 }
-      }
+      
       \new Staff = "lower" 
 \with {
   instrumentName = "2"
