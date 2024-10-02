@@ -74,7 +74,7 @@
                      e'8. e'16 e'16 e'8. fis'8. e'16 d'8 e'8 b2 r2
 
                     f'8 g' aes' g' f' e' d' e' ees' f' g' f' ees'2  c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 d'2 
-                    r8 a16 e16 a8 b8 c'8 a8~ a8 r8 r8 a16 f16 a8 b16 c'8. c'16 b16 a r8.
+                    r8 a16 e16 a8 b16 c'16 a4~ a8 r8 r8 a16 f16 a8 b16 c'8. c'8 b16 a8 r8.
                     r8 b16 g16 b16 c'8 c'16 b16 a16 
 
                        }
