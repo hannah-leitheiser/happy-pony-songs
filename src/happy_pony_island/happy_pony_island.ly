@@ -16,8 +16,8 @@
     {
       \column {
         \left-align {
-          "Program 1: 0.05s, 0.3s, 60%, 0.05s : [5Hz, 20%], [2x, 100%]"
-          "Program 2: 0.05s, 0.3s, 80%, 0.05s : [2x,  20%], [3x, 20%], [4x, 20%]"
+          "Program 0: 0.05s, 0.3s, 60%, 0.05s : [5Hz, 20%], [2x, 100%]"
+          "Program 1: 0.05s, 0.3s, 80%, 0.05s : [2x,  20%], [3x, 20%], [4x, 20%]"
         }
       }
     }
@@ -53,8 +53,8 @@
     >>
 \new PianoStaff = "piano" <<
       \new Staff = "upper" \with {
-  instrumentName = "1"
-  shortInstrumentName = "1"
+  instrumentName = "0"
+  shortInstrumentName = "0"
 }
 {
         \set Staff.midiInstrument = "acoustic grand"
@@ -85,8 +85,8 @@
       
       \new Staff = "lower" 
 \with {
-  instrumentName = "2"
-  shortInstrumentName = "2"
+  instrumentName = "1"
+  shortInstrumentName = "1"
 } { 
         \set Staff.midiInstrument = "bright acoustic"
         \tempo 4 = 90 % This sets the quarter note (crotchet) to 120 BPM
