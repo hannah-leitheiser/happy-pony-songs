@@ -42,14 +42,15 @@
                     % | 10
                      r8 a16 e16 a8 b16 c'8 a4~ a8 r16
                     % | 11
-                     r8 a16 f16 a8 b16 c'8. c'8 b16 a8 r8.
+                     r8 a16 f16 a8 b16 c'8. c'8 b16 a8 r16
+                    % | 12
                     r8 b16 g16 b16 c'8 c'16 b16 a16  
 
                        }
       \addlyrics { 
 
-                    We can be ha a py.
-                    Hur ry up it's time to leave.
+                    We can be ha a[ah] py[pee].
+                    Hur ry[ree] up it's time to leave.
                     Few will un der stand and that's O K. 
                     }
                             
@@ -80,8 +81,9 @@
                     % | 10
                      r8 a16 e16 a8 b16 c'8 a4~ a8 r16
                     % | 11
-                     r8 a16 f16 a8 b16 c'8. c'8 b16 a8 r8.
-                    r8 b16 g16 b16 c'8 c'16 b16 a16 
+                     r8 a16 f16 a8 b16 c'8. c'8 b16 a8 r16
+                    % | 12
+                    r8 b16 g16 b16 c'8 c'16 b16 a16  
 
                        }
 
@@ -101,7 +103,7 @@
         \time 4/4 
        { r1 <c e a>4 <b, dis gis> <c e a> <c e a> <a cis' e'> <a, c e> <b, dis fis> <b, dis fis a> <c e g> <c e g> <d fis a> <d fis a> <b, d g> <b, d g> <b, d e gis> <b, d e gis> 
          <f> <aes c'> <b,> <e g> <a,> <e g> <bes,> <ees g> <aes,> <c ees> <g,> <c ees> <g,> <b, d> <b, d> <b, d>
-         <a, c a> <a, c a> <f, a, f> <f, a f> <f, b, e> <f, b e><f, b e><f, b e><f, b e> <g b d> <g b d> } 
+         <a, c a> <a, c a> <f, a, f> <f, a f> <f, b, e> <f, b e><f, b e><f, b e> <g b d> <g b d><g b d><g b d> } 
       }
     >>
 
