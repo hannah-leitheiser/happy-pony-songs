@@ -38,8 +38,8 @@ melodyPattern = { c'4 c'4 e'4 e'4
     {
       \column {
         \left-align {
-          "Program 1: 0.1s, 0.1s, 80%, 0.1s : [5Hz, 20%], [2x, 100%]"
-          "Program 2: 0.1s, 0.1s, 80%, 0.1s : [4x, 50%]"
+          "Program 0: 0.1s, 0.1s, 80%, 0.1s : [5Hz, 20%], [2x, 100%]"
+          "Program 1: 0.1s, 0.1s, 80%, 0.1s : [4x, 50%]"
           "This is line two of the same"
           "And here's line three of the first verse"
           "And the last line of the same"
@@ -63,8 +63,9 @@ melodyPattern = { c'4 c'4 e'4 e'4
     >>
 \new PianoStaff = "piano" <<
       \new Staff = "upper" \with {
-  instrumentName = "Violin "
-  shortInstrumentName = ""
+
+  instrumentName = "0"
+  shortInstrumentName = "0"
 }
 {
         \set Staff.midiInstrument = "acoustic grand"
@@ -85,10 +86,10 @@ melodyPattern = { c'4 c'4 e'4 e'4
       }
       \new Staff = "lower" 
 \with {
-  instrumentName = "bright acoustic"
-  shortInstrumentName = ""
+  instrumentName = "1"
+  shortInstrumentName = "1"
 } { 
-        \set Staff.midiInstrument = "flute"
+        \set Staff.midiInstrument = "bright acoustic"
         \tempo 4 = 120 % This sets the quarter note (crotchet) to 120 BPM
 
         \clef bass 
